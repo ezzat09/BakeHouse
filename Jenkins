@@ -1,9 +1,6 @@
 List<String> ENVIROMENTS = ["test","dev","Prod","release"]
 pipeline { 
-   // properties([
-   //    prameters([string name
-   //  ])
-   // ])
+ 
     environment { 
         registry = "ezzathassan/newrepo1" 
         registryCredential = 'Dockerhub' 
